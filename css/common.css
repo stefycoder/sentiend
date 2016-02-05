@@ -6,7 +6,11 @@
  }
 
 *{
+<<<<<<< HEAD
 	font-family: "NovaRegular";
+=======
+	font-family: "Novalight";
+>>>>>>> 070ff8f96281cf8fa057aac33c3d951c53009adf
 }
 
 @font-face{
@@ -36,4 +40,10 @@
 
 .text-right {
 	text-align: right;
+}
+.text-left {
+	text-align: left;
+}
+.lh{
+	line-height: 1.5;
 }

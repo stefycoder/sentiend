@@ -3,7 +3,7 @@ header,.col-3,.row,.banner p, .banner img, .items_info{
 	border: 1px solid steelblue;
 }
 
-.row,.principal, .col-8,.col-4{
+.row .principal, .col-8,.col-4{
 	border: 1px solid tomato;
 }
 
