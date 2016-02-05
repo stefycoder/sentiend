@@ -1,0 +1,39 @@
+/* GLOBAL */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+ }
+
+*{
+	font-family: "NovaBold";
+}
+
+@font-face{
+	font-family: NovaBold;
+	src: url(../fonts/proxima_nova/proximanova-bold-webfont.ttf);
+}
+@font-face{
+	font-family:Novalight ;
+	src: url(../fonts/proxima_nova/proximanova-light-webfont.ttf);
+}
+@font-face{
+	font-family: NovaRegitalic;
+	src: url(../fonts/proxima_nova/proximanova-regitalic-webfont.ttf);
+}
+@font-face{
+	font-family: NovaRegular;
+	src: url(../fonts/proxima_nova/proximanova-regular-webfont.ttf);
+}
+@font-face{
+	font-family: NovaSemibold;
+	src: url(../fonts/proxima_nova/proximaNova-Semibold.ttf);
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
