@@ -1,0 +1,53 @@
+.titulo h1{
+	font-family: NovaRegular;
+	color:#002366 ;
+	font-size: 44px;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.titulo h5{ 
+	color:#616161;
+	font-size: 24px;
+	text-align: left;
+	padding-left: 10px;
+}
+.titulo p{
+	font-family: NovaRegular;
+	padding-top: 1%; 
+	color:#616161;
+	font-size: 18px;
+	text-align: left;
+}
+.comilla{
+	position: absolute;
+	left: 0px;
+	top: 43%;
+}
+.comillas{
+  -webkit-transform: rotate(180deg);
+}
+.envolve{
+	background:url(../img/background-about-us.jpg)no-repeat;
+	padding: 60px;
+	color: white;
+	margin-top: 5%;
+}
+.career h2{
+	padding-bottom: 30px;
+}
+.boton{
+	padding: 10px 20px;
+	text-decoration: none;
+	background-color: #002366;
+	color: white;
+	border-radius: 4%;
+}
+.envolve p{
+	margin-top: 30px;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-size: 18px;
+}
+.envolve h2{
+	font-size: 30px;
+}
