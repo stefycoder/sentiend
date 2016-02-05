@@ -47,3 +47,62 @@
 .lh{
 	line-height: 1.5;
 }
+
+header,.col-3,.row,.banner p, .banner img, .items_info{
+	border: 1px solid steelblue;
+}
+
+.row .principal, .col-8,.col-4{
+	border: 1px solid tomato;
+}
+
+#principal{
+	width: 90%;
+	margin:0 auto;
+}
+
+nav a{
+	text-decoration: none;
+	color:#000;
+	padding: 2%;
+	line-height: 4.7;
+}
+
+nav a:hover{
+	background-color: #002366;
+	color:#f6f6f6;
+}
+footer{
+	color:#979797;
+	padding-bottom: 20px;
+}
+footer a{
+	text-decoration: none;
+	color:#000;
+	padding:2%;
+	line-height: 3;
+	color:#979797;
+}
+
+footer a:hover{
+	text-decoration: underline;
+}
+
+footer p{
+	font-size: 0.9em;
+}
+footer ul li{
+	display: inline-block;
+	padding-right:5px;
+}
+
+footer ul li img{
+	vertical-align: bottom;
+}
+
+.negrita{
+	color:#000;
+	padding:2% 0.5%;
+	font-size: 1.1em;
+
+}
