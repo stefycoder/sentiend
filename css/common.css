@@ -6,11 +6,9 @@
  }
 
 *{
-<<<<<<< HEAD
+
 	font-family: "NovaRegular";
-=======
-	font-family: "Novalight";
->>>>>>> 070ff8f96281cf8fa057aac33c3d951c53009adf
+
 }
 
 @font-face{
@@ -48,13 +46,7 @@
 	line-height: 1.5;
 }
 
-header,.col-3,.row,.banner p, .banner img, .items_info{
-	border: 1px solid steelblue;
-}
 
-.row .principal, .col-8,.col-4{
-	border: 1px solid tomato;
-}
 
 #principal{
 	width: 90%;

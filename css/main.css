@@ -44,9 +44,13 @@
 .item *{
 	padding:3%;
 }
-.pbt{
-	padding-bottom: 76px;
-	color:red;
+.i_dos{
+	padding-bottom: 72px;
+	color: green;
+}
+.i_tres{
+	padding-bottom: 48px;
+	color: green;
 }
 
 .mg5{
@@ -81,7 +85,7 @@
 #contactus input{
 	width: 70%;
 	height: 45px;
-	padding:0 25%;
+	
 	text-align: center;
 	font-size: 1.8rem;
 }
