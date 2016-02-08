@@ -1,3 +1,4 @@
+
 /* GLOBAL */
 * {
   box-sizing: border-box;
@@ -45,11 +46,15 @@
 .lh{
 	line-height: 1.5;
 }
-
+.contenedor{
+	width: 1024px;
+	margin:auto;
+}
 
 #principal{
 	max-width: 70%;
 	margin:0 auto;
+	
 }
 
 

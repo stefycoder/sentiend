@@ -6,31 +6,57 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" href="css/grid-system.css">
 	<link rel="stylesheet" href="css/persona.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link rel="stylesheet" href="css/fontello.css">
+	<!--responsive-->
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/menu.css">
 </head>
 <body>
-	<!--<header>
-		<div id="principal"class="row">
-			<div class="col-4">
+	<header id="principal">
+		<div class="row ">
+			<div class="col-xs-3 col-md-2 text-center">
 				<img src="img/logo-iconos/sentient-logo.png" alt="no se pudo cargar">
 			</div>
-			<div class="col-8 text-right">
+			<div class="col-xs-9 col-md-10 text-right">
 				<nav>
-					<a href="#">About SIM</a>|
-					<a href="#">contact Us</a>
+					<a href="aboutus.html">About SIM</a>|
+					<a href="index.html#contactus">contact Us</a>
 				</nav>
+				
 			</div>
+		</div> 
+	</header>
+	<header id="secundario">
+		<div class="contenedor">
+			<div class=" col-xs-3  text-center">
+			<img src="img/logo-iconos/sentient-logo.png" alt="no se pudo cargar">
+			</div>	
+
+			<input type="checkbox" id="menu-bar">
+			<label class="icon-menu" for="menu-bar"></label>
+		
+			<nav class="menu">
+				<a href="aboutus.html">About SIM</a>
+				<a href="#contactus">contact Us</a>
+			</nav>
+		
 		</div>
-	</header>-->
-	<section>
+	</header>
+	<section id="persona" class="text-center">
 		<h1>Antoine Blondeau</h1>
-		<h3>Co-founder</h3>
-		<img src="img/foto 1.jpg">
+		<h3>Co-founder</h3>	
+		<div class="imagentexto">
+		<img class="img-responsive" src="img/interna-foto-1.jpg">
 		<p>Antoine Blondeau is a co-founder and xxx of Sentient Investment Management, as well as a co-founder and chief execute officer of its parent company, Sentient Technologies. A seasoned entrepreneur and investor, Antoine has 25 years of experience in the technology industry, having held senior leadership positions at Good Technology, <a href="">Salesforce.com</a> and Sybase.</p>
-		<p>Antoine's caree highlights include leading Dejima as CEO, the company that powered DARPA's foundational CALO project that later evolved into Apple's Siri. He was also chief operating officer of Zi Corporation, whose smart text input software was embedded in hundreds of millions of devices. Antoine is an investor, board member and advisor in a number of companies in California, Greater China and Japan, and is the author or co-author of 5 patents.</p>
-		<p>He holds a MBA from the Paris Graduate School of Management(ESCP) and has studied at the faculties of Economics and Commere of Chuo University in Tokyo.</p>
+
+		<p>Antoine career highlights include leading dejima as ceo, the company that powered DARPA's foundational CALO proyect that later evolved into aplle's Siri. He was also chief operating officer of ZiCorporation, whose smart text imput software was embedded in hundreds of millions of devices. Antoine is an inversor, board member and advisor in a number of companies in california, greater china and japan, and is the author of 5 patents.</p>
+		<p>He holds a MBA from the Paris Graduate School of management (ESCP) and has estudid at the faculties of Econimics and Commerse of Chuo University in Tokyo.</p>
+		</div>
 	</section>
 	
-<!--	<footer class="text-center">
+	<footer class="text-center">
 		<a class="negrita" href="#">About SIM</a>
 		<a class="negrita" href="#">Contact us</a>
 		<ul>
@@ -41,6 +67,12 @@
 		<a href="#">Privancy Policy</a>|
 		<a href="#">User Agreetment</a>
 		<p>©2016 Sentient Technologies Holdings Limited. All Rights Reserved.</p>
-	</footer-->
+	</footer>
+
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>

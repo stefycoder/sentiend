@@ -1,0 +1,47 @@
+ #persona h1,h3 {
+ 	font-family: "NovaLight";
+ 	font-size: 2em;
+	color:#002366;
+	line-height: 1.5;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+
+#persona h3{
+	font-size: 1.5em;
+}
+
+#persona img{
+	display: inline-block;
+	margin: 0 auto 5%;
+	width: 100%;
+}
+.imagentexto{
+	width:60%; 
+	margin:5% auto 10%;
+	text-align: justify;
+}
+.imagentexto p{
+	margin-bottom: 2%;
+	word-spacing: 2px;
+	line-height: 1.5;
+	font-size: 1.2em;
+}
+
+@media(max-width: 932px){
+	
+	.imagentexto {
+		width: 85%;
+	}
+	.imagentexto p{
+	margin-bottom: 20px;
+	word-spacing: 2px;
+	line-height: 1.5;
+	font-size:1.2em;
+	}
+
+	#persona img{
+		height: 250px;
+
+	}
+}
