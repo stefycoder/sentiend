@@ -1,61 +1,68 @@
+
+
 .banner{
 	background: url(../img/hero-image.jpg)no-repeat;
+	background-size: cover;
+
 	color:#f6f6f6;
 	font-size:2.5em;
 	letter-spacing:2px;
 	padding:5%;
-
+	max-height: 450px;
 }
 .banner p{
-	width: 60%;
+	max-width: 600px;
 	display: inline-block;
-	margin:8% auto;
+	margin:40px auto;
 }
 .banner img{
 	display: block;
 	margin-left: 50%;
+	transform: translateX(-50%);
 }
 #informacion{
-	width: 70%;
-	margin: 0 auto;
+	width: 100%;
+	margin:5% auto 3%;
 }
 #informacion p:first-child{
-	width: 70%;
-	margin:3% auto;
-	line-height: 2;
-	font-size: 1.2em;
+	width: 60%;
+	color:#979797;
+	margin:30px auto;
+	line-height: 1.5;
+	font-size: 1.6em;
 }
 
 #informacion p:nth-child(2){
-	width: 55%;
+	width: 70%;
 	color: #002366;
-	font-size: 1.6em;
-	line-height: 2;
-	margin:3% auto;
+	font-size: 1.8em;
+	line-height: 1.5;
+	margin:10px auto 0;
 }
 
+#clase{max-width:1001px;margin:0 auto 5%;}
 .item{
-	width: 100%;
-
-	padding: 10% 1%;
+	max-width: 290px;
+	height: 310px;
+	padding: 25px 1%;
+	margin:3% auto;
 	border:1px solid #979797;
 
 }
 .item *{
 	padding:3%;
 }
-.i_dos{
-	padding-bottom: 72px;
-	color: green;
+/*
+.i_dos:last-child{
+	padding-bottom: 16%;
+	color: tomato;
 }
 .i_tres{
 	padding-bottom: 48px;
 	color: green;
 }
+*/
 
-.mg5{
-	margin-bottom: 7%;
-}
 
 .item p{
 	font-family: NovaRegular;
@@ -63,29 +70,33 @@
 	line-height: 1.5;
 }
 
+
+
 /*------*/
 #contactus{
 	background: url(../img/background_contactus.jpg)no-repeat;
+	background-color: #F9F9F9;
 	color:#f6f6f6;
 	background-size: 100% 200%;
-
+	background-attachment: fixed;
 }
 #contactus h1{
-	padding:5% 0 3%;
-	font-size: 2.5rem;
+	padding:5% 0 2%;
+	font-size: 4rem;
+	font-weight: bold;
 }
 #contactus p{
-	width: 50%;
+	width: 411px;
 	color:#fff;
-	font-size: 2rem;
+	font-size: 2.3rem;
 	line-height: 1.5;
 	padding-bottom: 1%;
 	margin:0 auto;
 }
 #contactus input{
-	width: 70%;
-	height: 45px;
-	
+	width: 411px;
+	height: 50px;
+	color: #000;
 	text-align: center;
 	font-size: 1.8rem;
 }
@@ -96,5 +107,38 @@
 	width: 150px;
 	color:#f6f6f6;
 	margin-bottom: 5%;
-	font-size: 1.2rem;
+	font-size: 1.5rem;
+}
+
+
+@media (max-width: 768px){
+	#contactus{
+		background-color: #F9F9F9;
+		background-image: none;
+		padding:20px 0 40px;
+		margin-top: 35px;
+	}
+	#contactus h1{
+		color:#002366;
+		font-size: 3rem;
+	}
+	#contactus p{
+		color:#979797;
+		font-size: 1.8rem;
+		width: 80%;
+		margin-bottom: 10px;
+	}
+
+	#contactus input{
+		width: 90%;
+	}
+	#contactus button{
+		width: 72%;
+	}
+	
+	#informacion p:first-child{
+	width: 75%;
+	
+	}
+
 }
