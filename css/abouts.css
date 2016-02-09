@@ -68,9 +68,10 @@
 	padding-bottom: 2%;
 }
 a:hover{
-	background-color: #2496C1;
-	text-decoration: none;
+	background: #2496C1;
 	border:1px solid #2496C1;
+	color: white;
+	text-decoration: none;
 }
 .parrafo{
 	color: #002366;
@@ -82,7 +83,7 @@ a:hover{
 	text-decoration: none;
 	border:1px solid white;
 	color: white;
-	border-radius: 4%;
+	border-radius: 5%;
 }
 .bn{
 	padding: 2% 10%;
@@ -97,18 +98,31 @@ a:hover{
 .fin{
 	border-bottom: 2px solid #E0E0E0;
 }
+.carrers{
+	background: #2496C1;
+}
 .color h2{
 	color: #153573;
 }
 .imagenes{
 	background-color: white;
 	margin: 2%;
-	height:250px;
+	height:260px;
 	width: 190px;
 	border:1px solid white;
 	margin-bottom: 5%;
 
 }
+.imagenes img{
+	height: 60%;
+}
+.imagenes:hover img {
+               -moz-transform: scale(1);
+               -webkit-transform: scale(1);
+               -o-transform: scale(1,2));
+               -ms-transform: scale(1);
+               transform: scale(1.05);
+}                              
 .imagenes a{
 	color: black;
 }
@@ -146,6 +160,12 @@ a:hover{
 	padding-right: 10%;
 	font-size: 25px;
 }
+.envolve{
+	padding-bottom: 7%;
+}
+.pri{
+	padding: 3% 20%;
+}
 .apply{
 	padding: 3% 30%;
 }
@@ -163,7 +183,7 @@ a:hover{
 .imagenes{
 	position: relative;
 	left:25%;
-	border:1px solid gray;
+	border:1px solid #E0E0E0;
 }
 .imagenes p{
 	padding-left: 10%;

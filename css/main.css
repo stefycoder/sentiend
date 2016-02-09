@@ -47,10 +47,13 @@
 	padding: 25px 1%;
 	margin:3% auto;
 	border:1px solid #979797;
-
 }
 .item *{
 	padding:3%;
+}
+.item a{
+	color:#A1A1A1;
+	text-decoration: none;
 }
 /*
 .i_dos:last-child{
