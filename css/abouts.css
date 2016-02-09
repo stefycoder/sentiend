@@ -102,9 +102,12 @@ a:hover{
 }
 .imagenes{
 	background-color: white;
-	margin: 1%;
-	height: 20%;
+	margin: 2%;
+	height:250px;
+	width: 190px;
 	border:1px solid white;
+	margin-bottom: 5%;
+
 }
 .imagenes a{
 	color: black;
@@ -118,7 +121,7 @@ a:hover{
 .comillas{
 	position: relative;
 	bottom: -28px;
-	right: 15%;
+	right: 35%;
 }
 .titulo h5{ 
 	color:#616161;
@@ -147,7 +150,7 @@ a:hover{
 	padding: 3% 30%;
 }
 .title{
-	padding-top: 15px;
+	padding-top: 7%;
 	padding-left: 7%;
 	padding-right: 7%;
 	font-size: 18px;
@@ -157,9 +160,10 @@ a:hover{
 	font-size: 20px;
 	padding: 4% 40%;
 }
-.imagenes img{
-	border:1px solid black;
-	margin: 1%;
+.imagenes{
+	position: relative;
+	left:25%;
+	border:1px solid gray;
 }
 .imagenes p{
 	padding-left: 10%;
