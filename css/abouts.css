@@ -104,6 +104,10 @@ a:hover{
 	background-color: white;
 	margin: 1%;
 	height: 20%;
+	border:1px solid white;
+}
+.imagenes a{
+	color: black;
 }
 @media(max-width: 932px){
 	.comilla{
@@ -114,7 +118,7 @@ a:hover{
 .comillas{
 	position: relative;
 	bottom: -28px;
-	right: 35%;
+	right: 15%;
 }
 .titulo h5{ 
 	color:#616161;
@@ -153,10 +157,13 @@ a:hover{
 	font-size: 20px;
 	padding: 4% 40%;
 }
-.imagenes{
-	background-color: white;
+.imagenes img{
+	border:1px solid black;
 	margin: 1%;
-	height: 20%;
+}
+.imagenes p{
+	padding-left: 10%;
+	padding-right: 10%;
 }
 .pregunta h5{
 	font-size: 20px;
