@@ -50,7 +50,9 @@
 	width: 1024px;
 	margin:auto;
 }
-
+header{
+	border-bottom: 2px solid #E0E0E0;
+}
 #principal{
 	max-width: 70%;
 	margin:0 auto;

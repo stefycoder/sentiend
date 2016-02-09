@@ -14,19 +14,19 @@
 	color:#616161;
 	font-size: 24px;
 	text-align: left;
-	padding-left: 10%;
+	padding-left: 22%;
 }
 .titulo p{
 	font-family: NovaRegular; 
 	color:#616161;
 	font-size: 18px;
-	text-align: left;
-	padding-right: 10%;
+	padding-right: 15%;
 	padding-top: 2%;
+	padding-left: 5%;
 }
 .comilla{
 	position: absolute;
-	left: 6%;
+	left: 18%;
 	top: 7%;
 }
 .comillas{
@@ -34,9 +34,10 @@
 }
 .envolve{
 	background:url(../img/background-about-us.jpg)no-repeat;
-	padding:5%;
+	padding:3%;
 	color: white;
 	background-size: cover;
+	margin-bottom: 4%;
 }
 .boton{
 	padding: 1% 3%;
@@ -49,15 +50,14 @@
 	margin-top: 3%;
 	padding-left: 21%;
 	padding-right: 21%;
+	margin-bottom: 4%;
 	font-size: 18px;
-	padding-bottom: 3%;
 }
 .envolve h2{
 	font-size: 30px;
 	padding-bottom: 2%;
 }
 .pregunta h5{
-	padding-left: 35%;
 	font-size: 20px;
 }
 .title{
@@ -69,14 +69,25 @@
 }
 a:hover{
 	background-color: #2496C1;
+	text-decoration: none;
+	border:1px solid #2496C1;
 }
 .parrafo{
 	color: #002366;
 	padding-left: 25%;
 	padding-right: 25%;
 }
+.apply{
+	padding: 2% 6%;
+	text-decoration: none;
+	border:1px solid white;
+	color: white;
+	border-radius: 4%;
+}
+.bn{
+	padding: 2% 10%;
+}
 .manag{
-	padding-top: 2%;
 	color: #002366;
 }
 .color{
@@ -88,4 +99,68 @@ a:hover{
 }
 .color h2{
 	color: #153573;
+}
+.imagenes{
+	background-color: white;
+	margin: 1%;
+	height: 20%;
+}
+@media(max-width: 932px){
+	.comilla{
+	position: absolute;
+	left: 45%;
+	top: 1%;
+}
+.comillas{
+	position: relative;
+	bottom: -28px;
+	right: 35%;
+}
+.titulo h5{ 
+	color:#616161;
+	font-size: 24px;
+	text-align: center;
+	padding-left: 0%;
+	padding-top: 5%;
+}
+.titulo p{
+ 	text-align: center;
+	padding-top: 3%;
+	padding-right: 0%;
+}
+.envolve p{
+	margin-top: 3%;
+	padding-left: 0%;
+	padding-right: 0%;
+	font-size: 18px;
+}
+.parrafo{
+	padding-left: 10%;
+	padding-right: 10%;
+	font-size: 25px;
+}
+.apply{
+	padding: 3% 30%;
+}
+.title{
+	padding-top: 15px;
+	padding-left: 7%;
+	padding-right: 7%;
+	font-size: 18px;
+	padding-bottom: 2%;
+}
+.carrers{
+	font-size: 20px;
+	padding: 4% 40%;
+}
+.imagenes{
+	background-color: white;
+	margin: 1%;
+	height: 20%;
+}
+.pregunta h5{
+	font-size: 20px;
+	padding-bottom: 5%;
+	padding-top: 5%;
+}
 }
