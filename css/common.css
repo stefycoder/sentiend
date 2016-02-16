@@ -7,9 +7,7 @@
  }
 
 *{
-
 	font-family: "NovaRegular";
-
 }
 
 @font-face{
@@ -36,7 +34,6 @@
 .text-center {
 	text-align: center;
 }
-
 .text-right {
 	text-align: right;
 }
@@ -47,7 +44,7 @@
 	line-height: 1.5;
 }
 .contenedor{
-	width: 1024px;
+	width: 85%;
 	margin:auto;
 }
 body{
@@ -131,6 +128,7 @@ header{
 		display: none;
 	}
 }
+
 footer{
 	color:#979797;
 	padding-bottom: 20px;
@@ -142,11 +140,9 @@ footer a{
 	line-height: 3;
 	color:#979797;
 }
-
 footer a:hover{
 	text-decoration: underline;
 }
-
 footer p{
 	font-size: 0.9em;
 }
@@ -154,11 +150,9 @@ footer ul li{
 	display: inline-block;
 	padding-right:5px;
 }
-
 footer ul li img{
 	vertical-align: bottom;
 }
-
 .negrita{
 	color:#000;
 	padding:2% 0.5%;
